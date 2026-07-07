@@ -57,7 +57,6 @@ h2{
 }
 .SeoSkils-img{
     height: 300px;
-    width: 60%;
     border-radius: 10%;
     grid-area: 1 / 1 / 3 / 2;
 }
@@ -79,7 +78,6 @@ h2{
 }
 .WdSkils-img{
     height: 300px;
-    width: 60%;
     border-radius: 10%;
     grid-area: 1 / 1 / 3 / 2;
 }
