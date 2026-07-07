@@ -103,7 +103,7 @@ h2{
     }
     .SeoSkils-img{
         margin: auto;
-        height: auto;
+        height: 300px;
         border-radius: 10%;
         grid-area: 1 / 1 / 1 / 1;}
     .skils-headings{
@@ -122,7 +122,7 @@ h2{
     }
     .WdSkils-img{
         margin: auto;
-        height: auto;
+        height: 300px;
         border-radius: 10%;
         grid-area: 1 / 1 / 1 / 1;}
     .contactme{
