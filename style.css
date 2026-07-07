@@ -12,15 +12,10 @@ h2{
     font-size: 40px;
     color: #629FEF;
 }
-.Hero{
-    background-image: url("./assets/Hero-section-bg.jpg") ;
-    background-size: contain;
-    background-position: center;
-    background-repeat: no-repeat;
-}
 .hero-container{
     display: grid;
     grid-template-columns: 4fr 2fr 4fr;
+    align-items: center;
 }
 .costume-line {
     border: none;
@@ -117,7 +112,7 @@ h2{
     margin: auto;
     height: 300px;
     border-radius: 10%;
-    grid-area: 1 / 1 / 1 / 1}
+    grid-area: 1 / 1 / 1 / 1;}
     .skils-headings{
     grid-area: 2 / 1 / 2 / 1;
     text-align: center;
@@ -136,9 +131,9 @@ h2{
     margin: auto;
     height: 300px;
     border-radius: 10%;
-    grid-area: 1 / 1 / 1 / 1}
-}
-.contactme{
+    grid-area: 1 / 1 / 1 / 1;}
+    .contactme{
     width: 90%;
     margin: auto;
+    }
 }
