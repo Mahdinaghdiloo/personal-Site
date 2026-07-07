@@ -28,8 +28,7 @@ h2{
     margin: 0 auto;
 }
 .profile-container{
-    display: flex;
-    justify-content: center;
+    text-align: center;
 }
 .profile-pic{
     height: 200px;
@@ -37,31 +36,16 @@ h2{
     border-radius: 50%;
     object-fit: cover;
 }
-.personal-information-Heading{
-    text-align: center;
-    margin-top: 2rem;
-    font-weight: 700;
-    font-size: 50px;
-    color: #629FEF;
-}
-.personal-information-pragraph{
-    text-align: center;
+.resume{
+    width: 75%;
+    margin: auto;
 }
 .resume-div{
     text-align: center;
-    width: 75%;
-    margin: 0 auto;
 }
 .skills{
     width: 75%;
     margin: 0 auto;
-}
-.Skills-heading{
-    text-align: center;
-    margin-top: 2rem;
-    font-weight: 700;
-    font-size: 50px;
-    color: #629FEF;
 }
 .Seo-Skills{
     display: grid;
@@ -73,6 +57,7 @@ h2{
 }
 .SeoSkils-img{
     height: 300px;
+    width: 60%;
     border-radius: 10%;
     grid-area: 1 / 1 / 3 / 2;
 }
@@ -94,6 +79,7 @@ h2{
 }
 .WdSkils-img{
     height: 300px;
+    width: 60%;
     border-radius: 10%;
     grid-area: 1 / 1 / 3 / 2;
 }
@@ -103,45 +89,46 @@ h2{
     margin: auto;
 }
 @media (max-width: 850px){
-    .resume-div{
-    width: 85%;
-    margin: auto;
+    .resume{
+        width: 90%;
+        margin: 0 auto;
+    }
     .skills{
-    width: 90%;
-    margin: 0 auto;
+        width: 90%;
+        margin: 0 auto;
     }
     .Seo-Skills{
-    grid-template-columns: auto;
-    grid-template-rows: auto;
-    align-items: center;
-    text-align: justify;
+        grid-template-columns: auto;
+        grid-template-rows: auto;
+        align-items: center;
+        text-align: justify;
     }
     .SeoSkils-img{
-    margin: auto;
-    height: 300px;
-    border-radius: 10%;
-    grid-area: 1 / 1 / 1 / 1;}
+        margin: auto;
+        height: auto;
+        border-radius: 10%;
+        grid-area: 1 / 1 / 1 / 1;}
     .skils-headings{
-    grid-area: 2 / 1 / 2 / 1;
-    text-align: center;
-    margin-top: 2rem;
-    font-weight: 700;
-    font-size: 28px;
-    color: #629FEF;
+        grid-area: 2 / 1 / 2 / 1;
+        text-align: center;
+        margin-top: 2rem;
+        font-weight: 700;
+        font-size: 28px;
+        color: #629FEF;
     }
     .WD-Skills{
-    grid-template-columns: auto;
-    grid-template-rows: auto;
-    align-items: center;
-    text-align: justify;
+        grid-template-columns: auto;
+        grid-template-rows: auto;
+        align-items: center;
+        text-align: justify;
     }
     .WdSkils-img{
-    margin: auto;
-    height: 300px;
-    border-radius: 10%;
-    grid-area: 1 / 1 / 1 / 1;}
+        margin: auto;
+        height: auto;
+        border-radius: 10%;
+        grid-area: 1 / 1 / 1 / 1;}
     .contactme{
-    width: 90%;
-    margin: auto;
+        width: 90%;
+        margin: auto;
     }
 }
