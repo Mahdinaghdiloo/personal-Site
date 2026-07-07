@@ -49,6 +49,8 @@ h2{
 }
 .resume-div{
     text-align: center;
+    width: 75%;
+    margin: 0 auto;
 }
 .skills{
     width: 75%;
@@ -101,6 +103,9 @@ h2{
     margin: auto;
 }
 @media (max-width: 850px){
+    .resume-div{
+    width: 90%;
+    margin: auto;
     .skills{
     width: 90%;
     margin: 0 auto;
