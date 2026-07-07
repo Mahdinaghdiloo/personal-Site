@@ -103,6 +103,9 @@ h2{
     margin: auto;
 }
 @media (max-width: 850px){
+    .hero-container {
+    grid-template-columns: 1fr;
+    }
     .skills{
     width: 90%;
     margin: 0 auto;
